@@ -1,0 +1,22 @@
+@mixin font($fontS: 16px, $fontW:400, $lineH: 1.5) {
+	font-family: 'Montserrat', sans-serif;
+	line-height: $lineH;
+	font-size: $fontS;
+    font-weight: $fontW;
+    
+    
+}
+
+
+
+@mixin titleFont($fontS: $fontTitle-2) {
+	line-height: 0.93;
+	font-size: $fontS;
+	font-weight: 700;
+}
+
+@mixin res($res) {
+	@media (max-width: $res + px) {
+		@content;
+	}
+}
