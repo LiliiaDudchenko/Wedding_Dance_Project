@@ -716,7 +716,7 @@ $fontTitle-1: 46px;
    left: 0;
    z-index: 10;
    background-color: $mainBgColor;
-   height: auto;
+   height: fit-content;
    overflow: hidden;
    border-bottom: 4px solid $secondary-color;
  
