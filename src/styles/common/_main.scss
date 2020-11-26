@@ -716,7 +716,7 @@ $fontTitle-1: 46px;
    left: 0;
    z-index: 10;
    background-color: $mainBgColor;
-   height: 100vh;
+   height: 645px;
    border-bottom: 4px solid $secondary-color;
  
 }
@@ -960,7 +960,15 @@ min-width: 30px;
     
     }
 }
+@media screen and (max-width: 340px) {
+.coaches__text {
+    padding: 16px 10px 16px;
+    }
 
+    .btn--slider {
+        bottom: 60%;
+    }
+}
 
 
    .intro__column--img,.intro__text{
