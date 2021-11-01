@@ -26,15 +26,15 @@ $(window).resize(function () {
 
 //Scroll to anchor
 
-// $("a.scroll_link").click(function (event) {
-//   event.preventDefault();
-//   $("html, body").animate(
-//     {
-//       scrollTop: $($(this).attr("href")).offset().top,
-//     },
-//     500
-//   );
-// });
+$("a.scroll_link").click(function (event) {
+  event.preventDefault();
+  $("html, body").animate(
+    {
+      scrollTop: $($(this).attr("href")).offset().top,
+    },
+    500
+  );
+});
 
 //Slick slider
 
